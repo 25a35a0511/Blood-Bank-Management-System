@@ -42,6 +42,31 @@ The system ensures proper tracking of donations and requests with status updates
 ---
 
 ## 🏗️ Project Structure
+bloodbankmanagement-master/
+│
+├── bloodbankmanagement/ # Django project settings
+│ ├── init.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── asgi.py
+│ └── wsgi.py
+│
+├── app/ # Main application
+│ ├── migrations/
+│ ├── templates/ # HTML templates
+│ ├── static/ # CSS, JS, images
+│ ├── init.py
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py # Database models
+│ ├── views.py # Business logic
+│ ├── urls.py # App routes
+│ └── forms.py # Forms
+│
+├── db.sqlite3 # SQLite database
+├── manage.py # Django project manager
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
 
 ---
 

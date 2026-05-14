@@ -42,6 +42,7 @@ The system ensures proper tracking of donations and requests with status updates
 ---
 
 ## 🏗️ Project Structure
+```
 bloodbankmanagement-master/
 │
 ├── bloodbankmanagement/ # Django project settings
@@ -67,6 +68,7 @@ bloodbankmanagement-master/
 ├── manage.py # Django project manager
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
+```
 
 ---
 
